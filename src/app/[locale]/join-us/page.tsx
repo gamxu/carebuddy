@@ -11,6 +11,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
+import { Checkbox } from "@/components/ui/checkbox";
 import { useTranslations } from "next-intl";
 
 export default function JoinUsPage() {
@@ -190,7 +191,7 @@ export default function JoinUsPage() {
               </div>
 
               {/* Row 4 */}
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 gap-4">
                 <div className="space-y-2">
                   <Label htmlFor="workArea" className="text-sm sm:text-base">
                     {t("joinUsPage.form.workArea")}
@@ -204,6 +205,8 @@ export default function JoinUsPage() {
                     className="bg-amber-50 border-amber-200 focus:ring-amber-500 text-sm sm:text-base"
                   />
                 </div>
+              </div>
+              <div>
                 <div className="space-y-2">
                   <Label htmlFor="jobType" className="text-sm sm:text-base">
                     {t("joinUsPage.form.jobType")}
@@ -235,13 +238,17 @@ export default function JoinUsPage() {
               </div>
 
               {/* Privacy Policy Checkbox */}
-              <div className="flex items-start space-x-3">
-                <input
-                  type="checkbox"
-                  name="agreeToPolicy"
+              <div className="flex items-center space-x-3">
+                <Checkbox
+                  id="agreeToPolicy"
                   checked={formData.agreeToPolicy}
-                  onChange={handleInputChange}
-                  className="mt-1 h-4 w-4 text-amber-600 focus:ring-amber-500 border-gray-300 rounded"
+                  onCheckedChange={(checked) =>
+                    setFormData((prev) => ({
+                      ...prev,
+                      agreeToPolicy: checked as boolean,
+                    }))
+                  }
+                  className="data-[state=checked]:bg-amber-600 data-[state=checked]:border-amber-600"
                 />
                 <Label
                   htmlFor="agreeToPolicy"
