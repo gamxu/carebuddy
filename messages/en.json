@@ -1,0 +1,149 @@
+{
+  "navigation": {
+    "home": "HOME",
+    "aboutUs": "ABOUT US",
+    "ourServices": "OUR SERVICES",
+    "joinUs": "JOIN US",
+    "contact": "CONTACT"
+  },
+  "services": {
+    "careBuddyService": "Care Buddy Service",
+    "notiDrugs": "Noti-Drugs",
+    "wellnessActivities": "Wellness Activities"
+  },
+  "homePage": {
+    "title": "Care Buddy",
+    "tagline": "You never walk alone",
+    "description": "Care Buddy is committed to improving the quality of life for the elderly in all aspects: physical, mental, social, and spiritual. We offer 4 main services: wellness community, care buddy, Noti drug, and Job for elderly.",
+    "ourServiceButton": "OUR SERVICES"
+  },
+  "aboutUsPage": {
+    "title": "About Us",
+    "description1": "\"Care Companion\" who stays together with understanding. CARE BUDDY is a service that connects the elderly with BUDDY or \"Companion Caregiver\"",
+    "description2": "We believe that good care is not just about skills, but requires heart and true understanding. We have general caregivers, nursing assistants, nurses, and BUDDY who are well-trained, but everyone has one thing in common: \"intention to stay together as a friend\"",
+    "description3": "We don't replace children and grandchildren, but we are here on days when someone needs a friend by their side.",
+    "servicesList": {
+      "title": "Whether it's",
+      "items": [
+        "Taking them to the doctor",
+        "Inviting them for a walk",
+        "Sitting and chatting to ease loneliness",
+        "Or participating in activities for physical and mental rehabilitation"
+      ]
+    },
+    "conclusion": "CARE BUDDY wants to be a small reason that makes each day of the elderly warmer. CARE BUDDY – staying with heart like a trusted friend.",
+    "readMoreButton": "READ MORE"
+  },
+  "joinUsPage": {
+    "title": "Join Our Team",
+    "description": "You can work with us both full-time and part-time. Applicants can arrange their own work schedule according to their needs.",
+    "email": "E-mail:",
+    "emailValue": "support@carebuddyteam.com",
+    "contactTitle": "Contact Us",
+    "lineOfficial": "Add LINE OFFICIAL",
+    "formTitle": "Please fill in the following information",
+    "form": {
+      "prefix": "Title",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "age": "Age",
+      "gender": "Gender",
+      "phone": "Phone Number",
+      "workArea": "Area where you want to work with us",
+      "jobType": "Type of job you want to apply for",
+      "source": "How did you learn about us?",
+      "privacyPolicy": "I agree to the privacy policy",
+      "submit": "SUBMIT"
+    },
+    "genderOptions": {
+      "male": "Male",
+      "female": "Female"
+    },
+    "prefixOptions": {
+      "mr": "Mr.",
+      "mrs": "Mrs.",
+      "miss": "Miss"
+    },
+    "placeholders": {
+      "select": "Select",
+      "choose": "Choose"
+    }
+  },
+  "careBuddyServicePage": {
+    "title": "CARE BUDDY SERVICE",
+    "plans": {
+      "basic": {
+        "title": "Basic Plan",
+        "price": "1200฿/8hr.",
+        "features": [
+          "Daily living assistance services",
+          "Such as laundry, cooking, shopping",
+          "Companionship and travel companion"
+        ]
+      },
+      "standard": {
+        "title": "Standard Plan",
+        "price": "2000฿/8hr.",
+        "features": [
+          "Bedridden patient care or those who",
+          "Can partially help themselves",
+          "Cared for by nursing assistants or those with",
+          "Experience in bedridden patient care"
+        ]
+      },
+      "premium": {
+        "title": "Premium Plan",
+        "price": "2500฿/8hr.",
+        "features": [
+          "Bedridden patient care or those who",
+          "Can partially help themselves",
+          "Cared for by professional nurses"
+        ]
+      },
+      "custom": {
+        "title": "Custom Plan",
+        "price": "Contact Us",
+        "features": [
+          "Services tailored to your needs",
+          "Consultation and planning together",
+          "Appropriate pricing and services"
+        ]
+      }
+    },
+    "chooseButton": "CHOOSE",
+    "additionalInfo": {
+      "description": "Choose a plan that suits your needs",
+      "contactInfo": "For more information, please contact us"
+    }
+  },
+  "notiDrugsPage": {
+    "title": "Noti-Drugs Service",
+    "description": "Medication reminder service",
+    "descriptionThai": "Helps the elderly take medication on time, correctly, and completely. Features a notification system via Line according to each medication's schedule.",
+    "features": [
+      "Medication reminders on time",
+      "Medication history recording",
+      "Doctor appointment reminders",
+      "Emergency contact when unexpected events occur"
+    ]
+  },
+  "wellnessActivitiesPage": {
+    "title": "Wellness Activities",
+    "description": "Activities for health and well-being",
+    "provinceSelector": "Select province to join activities",
+    "availableActivities": "Available Activities",
+    "addToCart": "ADD TO CART",
+    "activityNames": {
+      "spa": "Spa",
+      "yogaClass": "Yoga Class",
+      "soapWorkshop": "Soap Workshop",
+      "cookingClass": "Cooking/Baking Class"
+    },
+    "activities": [
+      "Exercise activities",
+      "Social activities",
+      "Mental health activities",
+      "Learning and self-development activities"
+    ]
+  }
+}
